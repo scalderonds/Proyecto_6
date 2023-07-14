@@ -5,7 +5,7 @@ from .forms import VehiculoForm
 
 
 def index(request):
-    return HttpResponse('<h1> Catálogo de Vehículos </h1>')
+    return render(request, 'index.html')
 
 
 def ingresar_vehiculo(request):
